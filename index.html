@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Studio Chad | Design & Marketing Partner in Decatur, IL</title>
+  <meta name="description" content="Studio Chad is your design & marketing partner in Decatur, IL — websites, logos, branding, and advertising that stays consistent everywhere your customers see you." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- Top utility bar -->
+  <div class="topbar">
+    <div class="container topbar__inner">
+      <span class="topbar__note">Built on Wix Studio</span>
+      <a class="topbar__cta" href="#contact">Start Design Process</a>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container header__inner">
+      <a class="brand" href="#">
+        <img src="assets/logo-chad.svg" alt="Studio Chad" class="brand__logo" />
+      </a>
+
+      <nav class="nav">
+        <a href="#services">Services</a>
+        <a href="#work">Work</a>
+        <a href="#why">Why</a>
+        <a class="btn btn--small" href="#contact">Get Started</a>
+      </nav>
+
+      <button class="hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main>
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__copy">
+          <h1>
+            Your Design &<br />
+            Marketing Partner<br />
+            in <span class="accent">Decatur, IL</span>
+          </h1>
+
+          <p class="hero__sub">
+            Stop juggling multiple freelancers. Studio Chad has you covered from business card to billboard—while
+            being consistent and memorable to your customers.
+          </p>
+
+          <div class="hero__actions">
+            <a class="btn" href="#contact">Get Started Today</a>
+          </div>
+        </div>
+
+        <div class="hero__art">
+          <div class="hero__gradient" aria-hidden="true"></div>
+          <img
+            src="assets/hero-mockups.png"
+            alt="Brand mockups: website, business cards, billboard"
+            class="hero__img"
+            loading="eager"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Logo Grid / Work -->
+    <section class="logos" id="work">
+      <div class="container">
+        <div class="logos__grid">
+          <div class="logo-card"><img src="assets/logo-bumbly.png" alt="Bumbly Boutique" /></div>
+          <div class="logo-card"><img src="assets/logo-reynolds.png" alt="Reynolds Electric Solutions" /></div>
+          <div class="logo-card"><img src="assets/logo-wildbloom.png" alt="Wild Bloom" /></div>
+          <div class="logo-card"><img src="assets/logo-bell.png" alt="Bell Electric" /></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services" id="services">
+      <div class="container">
+        <div class="section-title">
+          <h2>Our Services</h2>
+          <div class="section-title__line"></div>
+        </div>
+
+        <div class="services__grid">
+          <div class="services__list">
+            <article class="service">
+              <h3>Website Design &amp; Hosting</h3>
+              <p>
+                Transform your business with a refreshing look and become SEO-ready in your area.
+                A polished on-brand website that emphasizes exactly what you do.
+              </p>
+            </article>
+
+            <article class="service">
+              <h3>Logo Design &amp; Branding</h3>
+              <p>
+                Your business deserves to look polished. A professional logo and consistent branding
+                helps customers recognize and remember you.
+              </p>
+            </article>
+
+            <article class="service">
+              <h3>Event Signage</h3>
+              <p>
+                Banners, retractables, booth backdrops, event promotions, and so much more.
+                If your business needs it, we’ll design, print, and deliver professional results.
+              </p>
+            </article>
+
+            <article class="service">
+              <h3>Advertisement Design</h3>
+              <p>
+                From billboards and magazines to social media ads. Whatever your advertisement, Studio Chad has you covered.
+              </p>
+            </article>
+          </div>
+
+          <div class="services__image">
+            <img src="assets/services-laptop.jpg" alt="Laptop showing a business website design" loading="lazy" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why -->
+    <section class="why" id="why">
+      <div class="container why__grid">
+        <div class="why__visual">
+          <img src="assets/why-logo.png" alt="Studio Chad logo" loading="lazy" />
+        </div>
+
+        <div class="why__copy">
+          <h2>Why Studio Chad?</h2>
+          <p>
+            Studio Chad is a solo design studio based in Decatur, IL, named by Chad Williams.
+            With over 10 years of design experience, he’s just about done it all.
+          </p>
+          <p>
+            Chad uses practical designs that stay on-brand and clearly define what you do and what problems you solve —
+            while looking good as you do it.
+          </p>
+
+          <a class="btn" href="#contact">Get Started Today</a>
+
+          <p class="why__fineprint">
+            Serving small businesses in Decatur, Forsyth, and Mt. Zion with 10+ years of graphic design and consistent branding experience.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <h2 class="contact__title">Contact us</h2>
+
+        <!-- GitHub Pages can’t process forms by itself.
+             Options:
+             1) Formspree
+             2) Netlify Forms
+             3) Your own backend
+             This starter uses Formspree placeholders. -->
+        <form class="form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+          <div class="form__grid">
+            <label>
+              <span>First name</span>
+              <input name="firstName" type="text" placeholder="First name" required />
+            </label>
+
+            <label>
+              <span>Last name</span>
+              <input name="lastName" type="text" placeholder="Last name" required />
+            </label>
+
+            <label>
+              <span>Email *</span>
+              <input name="email" type="email" placeholder="Email" required />
+            </label>
+
+            <label>
+              <span>Phone</span>
+              <input name="phone" type="tel" placeholder="Phone" />
+            </label>
+
+            <label class="form__full">
+              <span>Message *</span>
+              <textarea name="message" rows="5" placeholder="Message" required></textarea>
+            </label>
+          </div>
+
+          <button class="btn btn--wide" type="submit">Submit</button>
+          <p class="form__note">
+            Note: replace <code>YOUR_FORM_ID</code> with your Formspree form ID.
+          </p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__left">
+        <strong>Studio Chad</strong>
+        <div class="footer__small">Web Design, Branding, Print, &amp; Ad Design for Small Businesses</div>
+        <div class="footer__small">© <span id="year"></span> Studio Chad</div>
+      </div>
+
+      <div class="footer__mid">
+        <img src="assets/logo-chad.svg" alt="Studio Chad" class="footer__logo" />
+      </div>
+
+      <div class="footer__right">
+        <strong>Connect</strong>
+        <div class="footer__small"><a href="mailto:chad@studiochad.com">chad@studiochad.com</a></div>
+        <div class="footer__small">Decatur, IL</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
